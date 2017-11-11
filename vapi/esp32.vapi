@@ -42,6 +42,9 @@ namespace LOG {
 	
 	[CCode (cname="ESP_LOGI")]
 	public void i(string tag, string msg);		
+
+	[CCode (cname="ESP_LOGV")]
+	public void v(string tag, string msg);	
 }
 }
 
